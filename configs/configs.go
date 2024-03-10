@@ -6,6 +6,7 @@ import (
 
 var cfg *Config
 
+
 type Config struct {
 	DBDriver      string 'mapsturct:"DB_DRIVER"'
 	DBHost        string 'mapstruct:"DB_HOST"'
